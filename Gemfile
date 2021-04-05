@@ -14,6 +14,8 @@ gem 'turbolinks', '~> 5'
 gem 'bootsnap', '>= 1.4.4', require: false
 # マークダウン記法の文字列をHTMLに変換
 gem 'redcarpet'
+# シンタックスハイライト
+gem 'coderay'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
